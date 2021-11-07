@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,UAAU;EAC5B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;CACnB;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,UAAU;EACtB,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB",
+    "sources": [
+        "../js/scss/styles.scss",
+        "../js/scss/_game15.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
