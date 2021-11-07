@@ -19,8 +19,8 @@ function move(index) {
     return;
   }
 
-  cell.createElement.style.left = `${empty.left * cellSize}px`;
-  cell.createElement.style.top = `${empty.top * cellSize}px`;
+  cell.element.style.left = `${empty.left * cellSize}px`;
+  cell.element.style.top = `${empty.top * cellSize}px`;
 
   const emptyLeft = empty.left;
   const emptyTop = empty.top;
@@ -34,7 +34,7 @@ function move(index) {
   });
 
   if (isFinished) {
-      alert('You won!')
+    alert('You won!');
   }
 }
 
@@ -58,9 +58,10 @@ for (let i = 1; i <= 15; i++) {
   cell.style.left = `${left * cellSize}px`;
   cell.style.top = `${top * cellSize}px`;
 
+  
   field.append(cell);
-
-  cell.addEventListener("click", () => {
-    move(i);
-  });
+  
+  cell.addEventListener('click', () => {
+        move(i);
+    });
 }
